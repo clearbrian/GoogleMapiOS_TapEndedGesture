@@ -41,8 +41,9 @@ When 1 sec timer fires on Pan Gesture map may have stopped moving.
 TIP: shouldRecognizeSimultaneouslyWithGestureRecognizer should return YES
 Default is no and if left at NO the GSMMapView gets the Pan Gesture and our subclass handler is never triggered
 
-
+```sh
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer{
     //default is no - if we dont set it to on then gesture is captured by GMSMapView and myGestureHandler never called
     return YES;
 }
+```
