@@ -5,7 +5,8 @@ Better Tap End Recognizer for Google Maps for iOS SDK
 -----------------------------------------------------
 
 ```sh
-As of Google SDK for iOS 1.7:
+Uses Google Maps SDK for iOS 1.7
+[https://developers.google.com/maps/documentation/ios/]
 ```
 
 To track when user has ended a tap the only method in the sdk was idleAtCameraPosition.
